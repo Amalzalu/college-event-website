@@ -1,0 +1,116 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f0f4ff;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #0d47a1;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd54f;
+}
+
+/* EVENTS SECTION */
+.events {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.events h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #1a73e8;
+}
+
+/* CARDS */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.card p {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* BUTTON */
+button {
+  margin-top: 12px;
+  padding: 10px 24px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0d47a1;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
